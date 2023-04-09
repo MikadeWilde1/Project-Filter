@@ -3,3 +3,86 @@
     padding:0;
     box-sizing: border-box;
 }
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    /* padding: 4rem; */
+    background: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: #00FF00;
+}
+
+.cards{
+    max-width: 100%;
+    display: grid;
+    max-height: 100%;
+    grid-template-columns: repeat(30,1fr);
+    grid-template-rows: repeat(30,1fr);
+    gap: 3rem;
+    /* padding: 1rem;    */
+}
+
+.card{
+    list-style: none;
+    border: solid 1px black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card1{
+    grid-row: 2/12;
+    grid-column: 3/15;
+    display: flex;
+    float: left;
+
+}
+
+.card2{
+    grid-row: 12/22;
+    grid-column:3/15;
+}
+
+.card3{
+    grid-row: 22/32;
+    grid-column:3/15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card4{
+    grid-row: 2/12;
+    grid-column: 17/29;
+}
+
+.card5{
+    grid-row: 12/22;
+    grid-column:  17/29;
+}
+
+.card6{
+    grid-row: 22/32;
+    grid-column:  17/29;
+}
+
+img{
+    float: left;
+    
+}
+
