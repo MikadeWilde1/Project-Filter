@@ -48,8 +48,6 @@ header{
 .card1{
     grid-row: 2/12;
     grid-column: 3/15;
-    display: flex;
-    float: left;
 
 }
 
