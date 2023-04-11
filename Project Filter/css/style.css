@@ -15,6 +15,7 @@ body{
     font-family: sans-serif;
 }
 
+
 /* header{
     display: flex;
     justify-content: center;
@@ -33,11 +34,12 @@ body{
 }
 
 .cards{
+    padding:4rem;
     width: 100%;
     display: grid;
-    height: 100%;
-    grid-template-columns: repeat(30,1fr);
-    grid-template-rows: repeat(30,1fr);
+    max-height: 100vh;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(9,1fr);
     gap: 3rem;
     background: linear-gradient( #53B4CF 40%, rgb(56, 188, 177), #2BC253 60%);
 }
@@ -57,8 +59,8 @@ body{
 }
 
 .card1{
-    grid-row: 2/12;
-    grid-column: 3/15;
+    grid-row: 1/4;
+    grid-column: 2/6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,18 +69,18 @@ body{
 }
 
 .card2{
-    grid-row: 12/22;
-    grid-column:3/15;
+    grid-row: 4/7;
+    grid-column:2/6;
 }
 
 .card3{
-    grid-row: 22/32;
-    grid-column:3/15;
+    grid-row: 7/10;
+    grid-column:2/6;
 }
 
 .card4{
-    grid-row: 2/12;
-    grid-column: 17/29;
+    grid-row: 1/4;
+    grid-column: 8/12;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,13 +90,13 @@ body{
 }
 
 .card5{
-    grid-row: 12/22;
-    grid-column:  17/29;
+    grid-row: 4/7;
+    grid-column:  8/12;
 }
 
 .card6{
-    grid-row: 22/32;
-    grid-column:  17/29;
+    grid-row: 7/10;
+    grid-column:  8/12;
     gap: 4rem;
     display: flex;
     align-items: center;
