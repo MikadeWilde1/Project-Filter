@@ -38,3 +38,28 @@ fetch("https://api.openweathermap.org/data/2.5/weather?lat=52.39093389936427&lon
 
     const weericon = document.getElementById("js--icon").setAttribute("src", "http://openweathermap.org/img/wn/" + icon + "@2x.png");
 });
+
+const labels = [   
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+];
+
+const data = {
+    labels: labels,
+    datasets:[
+        {
+            label: "co2 uitstoot",
+            data: [300,400,1000,3000],
+            backgroundColors: ['#FFACAC','#FFBFA9', '#FFEBB4', '#FBFFB1']
+        }
+    ]
+}
+
+const config = {
+    type:'bar',
+    data: data,
+}
+
+new Chart(document.getElementById("js--co2--uitstoot"), config)

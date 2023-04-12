@@ -57,6 +57,10 @@ body{
     object-fit: fill;
 }
 
+.card canvas{
+    object-fit: fill;
+}
+
 .card1{
     grid-row: 1/4;
     grid-column: 2/6;
