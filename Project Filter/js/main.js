@@ -63,3 +63,25 @@ const config = {
 }
 
 new Chart(document.getElementById("js--co2--uitstoot"), config)
+
+
+
+
+
+
+
+
+
+
+
+// card 5
+
+const config3 = {
+    type:'line',
+    data:data,
+}
+
+
+new Chart(document.getElementById("js--energie.gebruik"), config3)
+
+// card 5
