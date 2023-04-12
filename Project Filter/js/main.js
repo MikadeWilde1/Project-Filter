@@ -85,7 +85,7 @@ const data3 = {
     labels: labels3,
     datasets:[
         {
-            label: "zonne-energie productie",
+            label: "energie gebruik",
             data: [10,20,30],
             backgroundColors: ['#FFACAC','#FFBFA9', '#FFEBB4', '#FBFFB1']
         }
@@ -104,7 +104,7 @@ const config2= {
 
 const config3 = {
     type:'line',
-    data:data,
+    data:data3,
 }
 
 
