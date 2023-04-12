@@ -86,7 +86,7 @@ const data3 = {
     datasets:[
         {
             label: "energie gebruik",
-            data: [10,20,30],
+            data: [10,20,30,15],
             backgroundColors: ['#FFACAC','#FFBFA9', '#FFEBB4', '#FBFFB1']
         }
     ]
