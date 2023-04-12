@@ -52,6 +52,13 @@ const labels2 = [
     "avond",
 ];
 
+const labels3 = [   
+    "10",
+    "20",
+    "30",
+    "40",
+];
+
 const data = {
     labels: labels,
     datasets:[
@@ -74,19 +81,35 @@ const data2 = {
     ]
 }
 
-
+const data3 = {
+    labels: labels3,
+    datasets:[
+        {
+            label: "zonne-energie productie",
+            data: [10,20,30],
+            backgroundColors: ['#FFACAC','#FFBFA9', '#FFEBB4', '#FBFFB1']
+        }
+    ]
+}
 
 const config = {
     type:'bar',
     data: data,
 }
 
-
 const config2= {
     type:'bar',
     data: data2,
 }
 
+const config3 = {
+    type:'line',
+    data:data,
+}
+
+
 new Chart(document.getElementById("js--co2--uitstoot"), config)
 
 new Chart(document.getElementById("js--zonnenergie--productie"), config2)
+
+new Chart(document.getElementById("js--energie--gebruik"), config3)
