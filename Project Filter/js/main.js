@@ -46,20 +46,47 @@ const labels = [
     "2022",
 ];
 
+const labels2 = [   
+    "ochtend",
+    "middag",
+    "avond",
+];
+
 const data = {
     labels: labels,
     datasets:[
         {
             label: "co2 uitstoot",
-            data: [300,400,1000,3000],
+            data: [165,164,160,159],
             backgroundColors: ['#FFACAC','#FFBFA9', '#FFEBB4', '#FBFFB1']
         }
     ]
 }
+
+const data2 = {
+    labels: labels2,
+    datasets:[
+        {
+            label: "zonne-energie productie",
+            data: [20,55,5],
+            backgroundColors: ['#FFACAC','#FFBFA9', '#FFEBB4', '#FBFFB1']
+        }
+    ]
+}
+
+
 
 const config = {
     type:'bar',
     data: data,
 }
 
+
+const config2= {
+    type:'bar',
+    data: data2,
+}
+
 new Chart(document.getElementById("js--co2--uitstoot"), config)
+
+new Chart(document.getElementById("js--zonnenergie--productie"), config2)
