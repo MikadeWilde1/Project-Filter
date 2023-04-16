@@ -51,6 +51,7 @@ body{
     border-radius: 1rem;
     padding: 3rem; 
     background: rgb(255, 255, 255);
+    /* box-shadow: black 5px; */
 }   
 
 .card img {
